@@ -105,7 +105,7 @@
         </div>
       <div class="inputBox">
          <asp:TextBox ID="txt_problem" runat="server" Required="required" TextMode="MultiLine" Rows="3"></asp:TextBox>
-        <span>Please specify the problem of the device</span>
+        <span id="problem">Please specify the problem of the device</span>
       </div>
         <asp:Button ID="btn_send" runat="server" Text="Make An Appointment" OnClick="btn_send_Click" />
     </form>

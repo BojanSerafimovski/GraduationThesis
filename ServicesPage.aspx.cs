@@ -20,10 +20,11 @@ namespace GraduationThesis
         // refreshing the drop down list if the client scheduled a term in purpose not to show the scheduled term
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack) {
+            if (!Page.IsPostBack)
+            {
                 LoadAppointments();
             }
-          
+
         }
         // taking the objects from the database for further use in the application
         public class Appointments
@@ -111,7 +112,7 @@ namespace GraduationThesis
             {
                 connection.Open();
                 var sql = "UPDATE AppointmentsDB SET IsTaken=1 WHERE AppointmentID=@AppointmentID";
-                connection.Execute(sql,parameters);
+                connection.Execute(sql, parameters);
             }
         }
         // showing only the free terms and not listing the already scheduled ones

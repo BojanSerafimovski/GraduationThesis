@@ -1045,8 +1045,21 @@ section {
         margin: 5rem 0;
     }
 }
+
+@media only screen and (max-width: 550px){
+    #problem{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    #appointments{
+        font-size: 14.5px;
+    }
+}
+
 /*Media Queries for Modals*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
     .modal-container {
         top: 23%;
         right: 20%;

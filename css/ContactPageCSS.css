@@ -290,9 +290,6 @@ nav ul li a.active {
 
 /*Contact Info Division*/
 
-
-
-
 .contactForm h3 {
     text-align: center;
     font-size: 16px;
@@ -458,10 +455,24 @@ nav ul li a.active {
 
         .container .contactInfo,
         .contactForm {
-            width: 100%;
+            width: calc(80% - 100px);
             transform: translateX(-5px);
             padding: 15px;
         }
+}
+
+@media screen and (max-width: 768px) {
+    .container .contactInfo,
+    .contactForm {
+        width: calc(80% - 50px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .contactInfo,
+    .contactForm {
+        width: calc(100% - 50px);
+    }
 }
 
 @media (max-width: 1362px) {
@@ -793,6 +804,7 @@ nav ul li a.active {
         margin-bottom: 10rem;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .modal-container {
         top: 23%;

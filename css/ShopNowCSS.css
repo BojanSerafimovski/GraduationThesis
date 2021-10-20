@@ -10,7 +10,7 @@
 
 body {
     background: url('../img/background3.jpg') no-repeat center;
-    background-size: cover;
+    overflow-x: hidden;
 }
 
 html {
@@ -260,6 +260,7 @@ nav ul li a.active {
         font-size: 16px;
         transform: translateY(-25px);
     }
+
 #quantity {
     color: #e91e63;
     font-size: 16px;
@@ -317,14 +318,11 @@ nav ul li a.active {
     background-size: cover;
     width: 30%;
     border-radius: 10px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 70px auto 0 auto;
     padding: 10px;
     z-index: 4;
     animation: animate 0.5s ease-in-out;
     box-shadow: 10px 10px 20px black;
-    transform: translateY(-60px);
 }
 
     .modal h3 {
@@ -559,12 +557,12 @@ nav ul li a.active {
     }
 
     .modal h4 {
-        padding: 1.5rem;
+        padding: 1rem;
         margin-top: 1rem;
+        font-size: 1.8rem;
     }
 
     .modal {
-        width: calc(45% - 5rem);
         padding: 5px;
     }
 }
@@ -576,6 +574,11 @@ nav ul li a.active {
     }
 }
 
+@media only screen and (max-width: 1350px) {
+    .modal h4 {
+        font-size: 1.68rem;
+    }
+}
 
 @media only screen and (max-width: 1280px) {
     .inputBox span {
@@ -614,6 +617,12 @@ nav ul li a.active {
     }
 }
 
+@media only screen and (max-width: 798px) {
+    .modal {
+        margin-top: 100px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .modal-close {
         right: 15%;
@@ -629,8 +638,34 @@ nav ul li a.active {
     }
 
     .modal {
-        width: 80%;
+        width: 70%;
         padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .modal h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .modal h4 {
+        font-size: 1.4rem;
+    }
+
+    .modal {
+        margin-top: 80px;
+    }
+
+    .inputBox span {
+        left: 12%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .modal h4 {
+        font-size: 1.3rem;
     }
 }
 /*footer*/
@@ -709,15 +744,17 @@ nav ul li a.active {
     .fas {
         visibility: visible;
         position: fixed;
-        top: 13%;
-        left: 3%;
+        top: 12%;
+        left: 2%;
         color: #3DC9D5;
         font-size: 3rem;
         text-shadow: 1px 1px 1px white;
     }
 
-    .fas:hover {
-        color: white;
-        text-shadow: none;
-    }
+        .fas:hover {
+            color: white;
+            text-shadow: none;
+        }
 }
+
+/*end of code*/

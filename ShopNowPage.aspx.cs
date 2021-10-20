@@ -47,7 +47,7 @@ namespace GraduationThesis
                 }
 
             }
-         
+
         }
 
         // taking the objects from the database for further use in the application

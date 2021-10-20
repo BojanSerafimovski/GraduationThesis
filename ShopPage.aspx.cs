@@ -15,8 +15,8 @@ using System.Data.SqlClient;
 namespace GraduationThesis
 {
     public partial class ShopPage : System.Web.UI.Page
-        
-        // establishing connection to the database
+
+    // establishing connection to the database
     {
         SqlConnection con = new SqlConnection(@"Data Source=BOJAN-PC;Initial Catalog=Subscribers;Persist Security Info=True;User ID=sa;Password=password");
         protected void Page_Load(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace GraduationThesis
             con.Open();
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = System.Data.CommandType.Text;
-            cmd.CommandText = "INSERT INTO Subscribes VALUES ('"+email_textbox.Text+"')";
+            cmd.CommandText = "INSERT INTO Subscribes VALUES ('" + email_textbox.Text + "')";
             cmd.ExecuteNonQuery();
 
             try
