@@ -18,7 +18,7 @@ namespace GraduationThesis
 
     // establishing connection to the database
     {
-        SqlConnection con = new SqlConnection(@"Data Source=BOJAN-PC;Initial Catalog=Subscribers;Persist Security Info=True;User ID=sa;Password=password");
+        SqlConnection con = new SqlConnection(@"Data Source=BOJAN-PC;Initial Catalog=Subscribers;Persist Security Info=True;User ID=username;Password=password");
         protected void Page_Load(object sender, EventArgs e)
         {
 

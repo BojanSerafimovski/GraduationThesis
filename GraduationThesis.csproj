@@ -70,7 +70,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ContactPage.aspx" />
+    <Content Include="asp\ContactPage.aspx" />
     <Content Include="css\ContactPageCSS.css" />
     <Content Include="glide-3.4.1\build\banner.js" />
     <Content Include="glide-3.4.1\build\build.js" />
@@ -146,7 +146,7 @@
     <Content Include="glide-3.4.1\tests\unit\object.test.js" />
     <Content Include="glide-3.4.1\tests\unit\string.test.js" />
     <Content Include="glide-3.4.1\tests\unit\unit.test.js" />
-    <Content Include="HomePage.aspx" />
+    <Content Include="asp\HomePage.aspx" />
     <Content Include="css\HomePageCSS.css" />
     <Content Include="img\appointment.jpg" />
     <Content Include="img\background1.jpg" />
@@ -184,49 +184,49 @@
     <Content Include="products\Tenda_AC7_1200_Black.png" />
     <Content Include="products\Tp-Link-White1.png" />
     <Content Include="products\Zte_KisMax_Black2.png" />
-    <Content Include="ServicesPage.aspx" />
+    <Content Include="asp\ServicesPage.aspx" />
     <Content Include="css\ServicesPageCSS.css" />
     <Content Include="css\ShopNowCSS.css" />
-    <Content Include="ShopNowPage.aspx" />
-    <Content Include="ShopPage.aspx" />
+    <Content Include="asp\ShopNowPage.aspx" />
+    <Content Include="asp\ShopPage.aspx" />
     <Content Include="css\ShopPageCSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContactPage.aspx.cs">
+    <Compile Include="asp\ContactPage.aspx.cs">
       <DependentUpon>ContactPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContactPage.aspx.designer.cs">
+    <Compile Include="asp\ContactPage.aspx.designer.cs">
       <DependentUpon>ContactPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.aspx.cs">
+    <Compile Include="asp\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HomePage.aspx.designer.cs">
+    <Compile Include="asp\HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServicesPage.aspx.cs">
+    <Compile Include="asp\ServicesPage.aspx.cs">
       <DependentUpon>ServicesPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ServicesPage.aspx.designer.cs">
+    <Compile Include="asp\ServicesPage.aspx.designer.cs">
       <DependentUpon>ServicesPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ShopNowPage.aspx.cs">
+    <Compile Include="asp\ShopNowPage.aspx.cs">
       <DependentUpon>ShopNowPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ShopNowPage.aspx.designer.cs">
+    <Compile Include="asp\ShopNowPage.aspx.designer.cs">
       <DependentUpon>ShopNowPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ShopPage.aspx.cs">
+    <Compile Include="asp\ShopPage.aspx.cs">
       <DependentUpon>ShopPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ShopPage.aspx.designer.cs">
+    <Compile Include="asp\ShopPage.aspx.designer.cs">
       <DependentUpon>ShopPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

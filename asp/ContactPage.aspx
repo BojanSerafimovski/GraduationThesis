@@ -1,15 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ShopNowPage.aspx.cs" Inherits="GraduationThesis.ShopNowPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ContactPage.aspx.cs" Inherits="GraduationThesis.ContactPage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="css/ShopNowCSS.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/30ce915f18.js" crossorigin="anonymous"></script>
-    <title>Shop Now</title>
+    <link href="../css/ContactPageCSS.css" rel="stylesheet" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 </head>
 <body>
     <form id="form1" runat="server">
+
         <header class="header" id="header">
             <nav class="nav">
                 <div class="logo">
@@ -17,9 +18,9 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="HomePage.aspx">Home</a></li>
-                    <li><a href="ShopPage.aspx" class="active">Shop</a></li>
+                    <li><a href="ShopPage.aspx">Shop</a></li>
                     <li><a href="ServicesPage.aspx">Services</a></li>
-                    <li><a href="ContactPage.aspx">Contact</a></li>
+                    <li><a href="ContactPage.aspx" class="active">Contact</></a></li>
                 </ul>
                 <div class="burger">
                     <div class="line1"></div>
@@ -29,71 +30,85 @@
             </nav>
         </header>
 
-        <div class="modal-shop">
-            <a href="ShopPage.aspx">
-                <i class="fas fa-door-open"></i>
-                <h6>U changed ur mind?
+
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>
+                    Do you have any questions about our location, our services, our promotions or maybe you would like to make an appointment for service on your device?
                     <br />
-                    Click me to go back to our shop!
-                </h6>
-            </a>
-            <div class="modal">
-                <h4>Please fill in the form and our team will deliver the product to your  home address as soon as possible</h4>
-                <form>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_nameandsurname13" runat="server" Required="required"></asp:TextBox>
-                        <span>Name & Surname</span>
-                    </div>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_phone13" runat="server" Required="required"></asp:TextBox>
-                        <span>Telephone Number</span>
-                    </div>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_address13" runat="server" Required="required"></asp:TextBox>
-                        <span>Address</span>
-                    </div>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_email13" runat="server" Required="required"></asp:TextBox>
-                        <span>E-mail</span>
-                        <div class="inputBox">
-                            <asp:TextBox ID="txt_subject13" runat="server" Required="required"></asp:TextBox>
-                            <span>Subject</span>
+                    <br />
+                    &#x21e9; <span>Please feel free to get in touch with us, we are available for you always.</span> &#x21e9;
+                </p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Boris Trajkovski 72<br />
+                                Skopje, North Macedonia<br />
+                                PostCode 1000</p>
                         </div>
                     </div>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_product13" runat="server" Required="required"></asp:TextBox>
-                        <span>Product Name</span>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone Number</h3>
+                            <p>02 3111 110</p>
+                        </div>
                     </div>
-                    <div class="inputBox">
-                        <asp:TextBox ID="txt_productprice" runat="server" Required="required"></asp:TextBox>
-                        <span>Product Price</span>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>E-mail</h3>
+                            <p>bojanwever@gmail.com</p>
+                        </div>
                     </div>
-                    <div class="inputBox">
-                        <asp:DropDownList ID="dropdownlist1" CssClass="MyDropDownList" runat="server">
-                        </asp:DropDownList>
-                        <span id="quantity">Quantity</span>
-                    </div>
-                    <div class="inputBox">
-                        <asp:DropDownList ID="dropdownlist13" runat="server" CssClass="MyDropDownList">
-                            <asp:ListItem Selected hidden>Payment method</asp:ListItem>
-                            <asp:ListItem>Cash</asp:ListItem>
-                            <asp:ListItem>Bank Card</asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
-                    <h3>
-                        <asp:Label ID="confirm" runat="server" Text=""></asp:Label>
-                    </h3>
-                    <div class="inputBox">
-                        <asp:Button ID="button11" CssClass="MyButton" runat="server" Text="Order" OnClick="button11_Click" />
-                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <h3>
+                            <asp:Label ID="confirm" runat="server" Text=""></asp:Label>
+                        </h3>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_name" runat="server" Required="required"></asp:TextBox>
+                            <span>Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_surname" runat="server" Required="required"></asp:TextBox>
+                            <span>Surname</span>
+                        </div>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_email" runat="server" Required="required"></asp:TextBox>
+                            <span>E-mail</span>
+                        </div>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_phone" runat="server" Required="required"></asp:TextBox>
+                            <span>Phone Number</span>
+                        </div>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_subject" runat="server" Required="required"></asp:TextBox>
+                            <span>Subject</span>
+                        </div>
+                        <div class="inputBox">
+                            <asp:TextBox ID="txt_message" runat="server" Required="required" TextMode="MultiLine" Rows="3"></asp:TextBox>
+                            <span>Type your Message</span>
+                        </div>
 
-                </form>
+                        <asp:Button ID="btn_send" runat="server" Text="Send" OnClick="btn_send_Click" />
+                    </form>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="content">
-            <img src="img/background1.jpg" width="2150" height="1050" />
-        </div>
+        <a href="#header" class="goto-top scroll-link">
+            <svg>
+                <use xlink:href="../img/sprite.svg#icon-arrow-up"></use>
+            </svg>
+        </a>
 
         <footer id="footer" class="footer">
             <div class="container_2">
@@ -108,10 +123,10 @@
                     <div class="footer-top__box">
                         <h3>Information</h3>
                         <a href="https://www.facebook.com/PromotelDOOSkopje" target="_blank">Facebook Page</a>
-                        <!--What We Do Modal-->
+
                         <p id="wwd">What We Do</p>
                         <div class="modal-container" id="modal_container">
-                            <div class="modal1">
+                            <div class="modal">
                                 <h1>Currently PromoGram does:</h1>
                                 <ul>
                                     <li><span>1.</span>We offer a large selection of telecommunications solutions.</li>
@@ -123,10 +138,9 @@
                                 </button>
                             </div>
                         </div>
-                        <!--Privacy Policy Modal-->
                         <p id="pp">Privacy Policy</p>
                         <div class="modal-container2" id="modal_container2">
-                            <div class="modal1">
+                            <div class="modal">
                                 <h1>Our privacy policy rules are:</h1>
                                 <ul>
                                     <li><span>1.</span>We need your personal information so that we can provide our services to you.</li>
@@ -147,7 +161,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-location"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-location"></use>
                                 </svg>
                                 Blvd. Boris Trajkovski 72
                             </span>
@@ -155,7 +169,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-envelop"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-envelop"></use>
                                 </svg>
                                 bojanwever@gmail.com
                             </span>
@@ -163,7 +177,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-phone"></use>
                                 </svg>
                                 02 3111110
                             </span>
@@ -171,7 +185,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-paperplane"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-paperplane"></use>
                                 </svg>
                                 1000 Skopje, North Macedonia
                             </span>
@@ -180,10 +194,10 @@
                 </div>
             </div>
         </footer>
+
     </form>
-
-
-    <script src="js/fixednav.js"></script>
-    <script src="js/MobileView.js"></script>
+    <script src="../js/policy.js"></script>
+    <script src="../js/MobileView.js"></script>
+    <script src="../js/fixednav.js"></script>
 </body>
 </html>

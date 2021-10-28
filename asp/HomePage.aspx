@@ -6,8 +6,8 @@
 <head runat="server">
     <title>PromoGram Home Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="img/PGICON.png" />
-    <link rel="stylesheet" href="css/HomePageCSS.css" />
+    <link rel="shortcut icon" href="../img/PGICON.png" />
+    <link rel="stylesheet" href="../css/HomePageCSS.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -91,13 +91,13 @@
                     <h3>Daily Promotions:</h3>
                     <br />
                     <a href="ShopPage.aspx">
-                        <img src="img/small-bannerI.gif" alt="promotion banner" width="300px" height="200px" /></a>
+                        <img src="../img/small-bannerI.gif" alt="promotion banner" width="300px" height="200px" /></a>
                     <br />
                     <a href="ShopPage.aspx">
-                        <img src="img/tellurl-banner.gif" alt="promotion banner" width="300px" height="200px" /></a>
+                        <img src="../img/tellurl-banner.gif" alt="promotion banner" width="300px" height="200px" /></a>
                     <br />
                     <a href="ShopPage.aspx">
-                        <img src="img/huawei-bannerI.gif" alt="promotion banner" width="300px" height="200px" /></a>
+                        <img src="../img/huawei-bannerI.gif" alt="promotion banner" width="300px" height="200px" /></a>
                     <br />
                 </aside>
 
@@ -122,11 +122,11 @@
                 </div>
                 <div id="slider">
                     <figure>
-                        <img src="img/PromoNapredStranicno.jpg" alt="Promo" height="400px" width="700px" />
-                        <img src="img/PromoParking.jpg" alt="parking" height="400px" width="700px" />
-                        <img src="img/PromoNapred.jpg" alt="napred" height="400px" width="700px" />
-                        <img src="img/PromoMasa.jpg" alt="Masa" height="400px" width="700px" />
-                        <img src="img/PromoNapredStranicno.jpg" alt="Promo" height="400px" width="700px" />
+                        <img src="../img/PromoNapredStranicno.jpg" alt="Promo" height="400px" width="700px" />
+                        <img src="../img/PromoParking.jpg" alt="parking" height="400px" width="700px" />
+                        <img src="../img/PromoNapred.jpg" alt="napred" height="400px" width="700px" />
+                        <img src="../img/PromoMasa.jpg" alt="Masa" height="400px" width="700px" />
+                        <img src="../img/PromoNapredStranicno.jpg" alt="Promo" height="400px" width="700px" />
                     </figure>
                 </div>
             </div>
@@ -176,7 +176,7 @@
         <!--arrow for navigation-->
         <a href="#header" class="goto-top scroll-link">
             <svg>
-                <use xlink:href="img/sprite.svg#icon-arrow-up"></use>
+                <use xlink:href="../img/sprite.svg#icon-arrow-up"></use>
             </svg>
         </a>
 
@@ -234,7 +234,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-location"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-location"></use>
                                 </svg>
                                 Blvd. Boris Trajkovski 72
                             </span>
@@ -242,7 +242,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-envelop"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-envelop"></use>
                                 </svg>
                                 bojanwever@gmail.com
                             </span>
@@ -250,7 +250,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-phone"></use>
                                 </svg>
                                 02 3111110
                             </span>
@@ -258,7 +258,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-paperplane"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-paperplane"></use>
                                 </svg>
                                 1000 Skopje, North Macedonia
                             </span>
@@ -271,10 +271,10 @@
 
 
     </form>
-    <script src="policy.js"></script>
-    <script src="js/JavaScript.js"></script>
-    <script src="js/fixednav.js"></script>
-    <script src="js/MobileView.js"></script>
-    <script src="js/wwdpp.js"></script>
+
+    <script src="../js/JavaScript.js"></script>
+    <script src="../js/fixednav.js"></script>
+    <script src="../js/MobileView.js"></script>
+    <script src="../js/wwdpp.js"></script>
 </body>
 </html>

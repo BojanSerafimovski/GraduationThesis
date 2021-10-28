@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="css/ShopPageCSS.css" rel="stylesheet" />
+    <link href="../css/ShopPageCSS.css" rel="stylesheet" />
     <!--  favicon -->
-    <link rel="shortcut icon" href="img/PGICON.png" />
+    <link rel="shortcut icon" href="../img/PGICON.png" />
     <!--  glide carousel -->
-    <link rel="stylesheet" href="glide-3.4.1/dist/css/glide.core.min.css" />
-    <link rel="stylesheet" href="glide-3.4.1/dist/css/glide.theme.min.css" />
+    <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="../glide-3.4.1/dist/css/glide.theme.min.css" />
     <title>PromoGram Shop</title>
 </head>
 <body>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Meizu_Pro7_Black.png" alt="meizu" class="banner_01" />
+                                        <img src="../products/Meizu_Pro7_Black.png" alt="meizu" class="banner_01" />
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Huawei-P40-lite.png" height="450" alt="Huawei" class="banner_02" />
+                                        <img src="../products/Huawei-P40-lite.png" height="450" alt="Huawei" class="banner_02" />
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Iphone_12.png" alt="Iphone" class="banner_03" />
+                                        <img src="../products/Iphone_12.png" alt="Iphone" class="banner_03" />
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Nokia_8.png" height="450" width="500" alt="Nokia 8" class="banner_04" />
+                                        <img src="../products/Nokia_8.png" height="450" width="500" alt="Nokia 8" class="banner_04" />
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Tellur_Blue1.png" alt="Tellur Headphones" class="banner_05" />
+                                        <img src="../products/Tellur_Blue1.png" alt="Tellur Headphones" class="banner_05" />
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Htc_U11_Black.png" height="450" width="500" alt="Htc U11" class="banner_06" />
+                                        <img src="../products/Htc_U11_Black.png" height="450" width="500" alt="Htc U11" class="banner_06" />
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/blackberry-bold.png" height="450" alt="BB Bold" class="banner_07" />
+                                        <img src="../products/blackberry-bold.png" height="450" alt="BB Bold" class="banner_07" />
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Tp-Link-White1.png" height="450" alt="BB Bold" class="banner_08" />
+                                        <img src="../products/Tp-Link-White1.png" height="450" alt="BB Bold" class="banner_08" />
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Zte_KisMax_Black2.png" height="450" width="500" alt="BB Bold" class="banner_09" />
+                                        <img src="../products/Zte_KisMax_Black2.png" height="450" width="500" alt="BB Bold" class="banner_09" />
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Motorola_Modem_Black.png" height="450" alt="BB Bold" class="banner_10" />
+                                        <img src="../products/Motorola_Modem_Black.png" height="450" alt="BB Bold" class="banner_10" />
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
                                 </div>
                                 <div class="hero__right">
                                     <div class="hero__img-container">
-                                        <img src="products/Huawei_Mate20.png" height="450" alt="BB Bold" class="banner_11" />
+                                        <img src="../products/Huawei_Mate20.png" height="450" alt="BB Bold" class="banner_11" />
                                     </div>
                                 </div>
                             </div>
@@ -273,12 +273,12 @@
                 <div class="glide__arrows" data-glide-el="controls">
                     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
                         <svg>
-                            <use xlink:href="img/sprite.svg#icon-arrow-left2"></use>
+                            <use xlink:href="../img/sprite.svg#icon-arrow-left2"></use>
                         </svg>
                     </button>
                     <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
                         <svg>
-                            <use xlink:href="img/sprite.svg#icon-arrow-right2"></use>
+                            <use xlink:href="../img/sprite.svg#icon-arrow-right2"></use>
                         </svg>
                     </button>
                 </div>
@@ -292,7 +292,7 @@
                     <div class="collection__container">
                         <div class="collection__box">
                             <div class="img__container">
-                                <img src="products/Tenda_AC7_1200_Black.png" alt="collection" class="collection_02" />
+                                <img src="../products/Tenda_AC7_1200_Black.png" alt="collection" class="collection_02" />
                             </div>
                             <div class="collection__content">
                                 <div class="collection__data">
@@ -310,7 +310,7 @@
                         </div>
                         <div class="collection__box">
                             <div class="img__container">
-                                <img src="products/GigasetDX800.png" alt="collection" class="collection_01" />
+                                <img src="../products/GigasetDX800.png" alt="collection" class="collection_01" />
                             </div>
                             <div class="collection__content">
                                 <div class="collection__data">
@@ -335,12 +335,12 @@
             <div class="popup__content">
                 <div class="popup__close">
                     <svg>
-                        <use xlink:href="img/sprite.svg#icon-cross"></use>
+                        <use xlink:href="../img/sprite.svg#icon-cross"></use>
                     </svg>
                 </div>
                 <div class="popup__left">
                     <div class="popup-img__container">
-                        <img src="img/newsletter-background.jpg" alt="" class="popup__img" />
+                        <img src="../img/newsletter-background.jpg" alt="" class="popup__img" />
                     </div>
                 </div>
                 <div class="popup__right">
@@ -363,7 +363,7 @@
 
         <a href="#header" class="goto-top scroll-link">
             <svg>
-                <use xlink:href="img/sprite.svg#icon-arrow-up"></use>
+                <use xlink:href="../img/sprite.svg#icon-arrow-up"></use>
             </svg>
         </a>
 
@@ -419,7 +419,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-location"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-location"></use>
                                 </svg>
                                 Blvd. Boris Trajkovski 72
                             </span>
@@ -427,7 +427,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-envelop"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-envelop"></use>
                                 </svg>
                                 bojanwever@gmail.com
                             </span>
@@ -435,7 +435,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-phone"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-phone"></use>
                                 </svg>
                                 02 3111110
                             </span>
@@ -443,7 +443,7 @@
                         <div class="">
                             <span>
                                 <svg>
-                                    <use xlink:href="img/sprite.svg#icon-paperplane"></use>
+                                    <use xlink:href="../img/sprite.svg#icon-paperplane"></use>
                                 </svg>
                                 1000 Skopje, North Macedonia
                             </span>
@@ -454,11 +454,11 @@
         </footer>
 
     </form>
-    <script src="glide-3.4.1/dist/glide.min.js"></script>
-    <script src="js/MobileView.js"></script>
-    <script src="js/popup.js"></script>
-    <script src="js/fixednav.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/policy.js"></script>
+    <script src="../glide-3.4.1/dist/glide.min.js"></script>
+    <script src="../js/MobileView.js"></script>
+    <script src="../js/popup.js"></script>
+    <script src="../js/fixednav.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/policy.js"></script>
 </body>
 </html>

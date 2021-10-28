@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="css/ServicesPageCSS.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="img/PGICON.png" />
+    <link href="../css/ServicesPageCSS.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../img/PGICON.png" />
     <title>PromoGram Services</title>
 </head>
 <body>
@@ -132,12 +132,12 @@
   <div class="popup__content">
     <div class="popup__close">
       <svg>
-        <use xlink:href="img/sprite.svg#icon-cross"></use>
+        <use xlink:href="../img/sprite.svg#icon-cross"></use>
       </svg>
     </div>
     <div class="popup__left">
       <div class="popup-img__container">
-        <img src="img/appointment.jpg" alt="" class="popup__img"/>
+        <img src="../img/appointment.jpg" alt="" class="popup__img"/>
       </div>
     </div>
     <div class="popup__right">
@@ -155,7 +155,7 @@
   <!--arrow for navigation-->
 <a href="#header" class="goto-top scroll-link">
   <svg>
-    <use xlink:href="img/sprite.svg#icon-arrow-up"></use>
+    <use xlink:href="../img/sprite.svg#icon-arrow-up"></use>
   </svg>
 </a>
 
@@ -213,7 +213,7 @@
         <div class="">
           <span>
             <svg>
-              <use xlink:href="img/sprite.svg#icon-location"></use>
+              <use xlink:href="../img/sprite.svg#icon-location"></use>
             </svg>
             Blvd. Boris Trajkovski 72
           </span>
@@ -221,7 +221,7 @@
         <div class="">
           <span>
             <svg>
-              <use xlink:href="img/sprite.svg#icon-envelop"></use>
+              <use xlink:href="../img/sprite.svg#icon-envelop"></use>
             </svg>
             bojanwever@gmail.com
           </span>
@@ -229,7 +229,7 @@
         <div class="">
           <span>
             <svg>
-              <use xlink:href="img/sprite.svg#icon-phone"></use>
+              <use xlink:href="../img/sprite.svg#icon-phone"></use>
             </svg>
             02 3111110
           </span>
@@ -237,7 +237,7 @@
         <div class="">
           <span>
             <svg>
-              <use xlink:href="img/sprite.svg#icon-paperplane"></use>
+              <use xlink:href="../img/sprite.svg#icon-paperplane"></use>
             </svg>
             1000 Skopje, North Macedonia
           </span>
@@ -250,10 +250,10 @@
 
 
 
-<script src="js/policy.js"></script>
-<script src="js/popup.js"></script>
-<script src="js/MobileView.js"></script>
-<script src="js/fixednav.js"></script>
+<script src="../js/policy.js"></script>
+<script src="../js/popup.js"></script>
+<script src="../js/MobileView.js"></script>
+<script src="../js/fixednav.js"></script>
 </form>
 </body>
 </html>
